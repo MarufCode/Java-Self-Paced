@@ -1,4 +1,4 @@
-git push origin --delete local# Java-Self-Paced 🚀
+
 
 This repository is created for self-paced learning and practice of **Core Java** concepts, specifically with the goal of mastering Java for **Automation Testing**.
 
