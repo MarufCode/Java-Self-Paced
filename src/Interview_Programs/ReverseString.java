@@ -6,19 +6,17 @@ public class ReverseString {
     public static void main(String[] args) {
 
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your name");
-        String name  = sc.next();
-        String temp = "";
+       Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the string");
+        String input = sc.next();
+        String  y = "";
 
 
-        for (int i = name.length()-1;i>=0;i--){
-            temp = temp + name.charAt(i);
+        for (int i = input.length()-1; i>=0;i--){
+            y = y + input.charAt(i);
         }
 
-        System.out.println(temp);
-
-
+        System.out.println(y);
 
 //        USing String Builder
 

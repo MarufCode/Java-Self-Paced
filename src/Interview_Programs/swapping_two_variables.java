@@ -13,9 +13,9 @@ public class swapping_two_variables {
         int b = scanner.nextInt();
 
 
-        a = a + b;
-        b = a - b;
-        a = a - b;
+        a = a +b;
+        b = a-b;
+        a = a -b;
 
         System.out.println(a);
         System.out.println(b);
