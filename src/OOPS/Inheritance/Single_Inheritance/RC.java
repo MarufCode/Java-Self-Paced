@@ -1,6 +1,6 @@
 package src.OOPS.Inheritance.Single_Inheritance;
 
-public class Dad_Son_RC {
+public class RC {
     public static void main(String[] args) {
 
 
