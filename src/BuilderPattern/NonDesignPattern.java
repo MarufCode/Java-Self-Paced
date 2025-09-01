@@ -10,11 +10,16 @@ public class NonDesignPattern {
         System.out.println("Step 2");
     }
 
+    public void step3(){
+        System.out.println("Step 3");
+    }
+
 
     public static void main(String[] args) {
 
         NonDesignPattern np = new NonDesignPattern();
-        np.step1();
         np.step2();
+        np.step3();
     }
+
 }
