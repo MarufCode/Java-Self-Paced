@@ -15,7 +15,7 @@ public class DesignPatternInJava {
 
     public static void main(String[] args) {
 
-        DesignPatternInJava dp = new DesignPatternInJava()
+        DesignPatternInJava dp = new DesignPatternInJava();
         dp.stage1().stage2();
     }
 
