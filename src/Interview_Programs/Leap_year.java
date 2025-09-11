@@ -8,7 +8,7 @@ public class Leap_year {
 
 
 //        Leap year is divisible by 4
-//         but not by 100 unless it is also divisible by 400
+//        but not by 100 unless it is also divisible by 400
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the year");
@@ -22,6 +22,18 @@ public class Leap_year {
             System.out.println(year + "i not a leap year");
         }
 
+
+
+
+
+
+
+
+        if ((year%4==0 && year%100!=0) || (year%400==0)){
+            System.out.println(year + " is a leap year");
+        }else {
+            System.out.println(year + " is not a leap year");
+        }
 
 
 
