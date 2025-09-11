@@ -1,6 +1,6 @@
 package src.BuilderPattern;
 
-public class NonBuilderPattern {
+public class NonBuilderPattern_ex {
 
     public void stage1(){
         System.out.println("Stage 1");
@@ -12,7 +12,7 @@ public class NonBuilderPattern {
 
 
     public static void main(String[] args) {
-        NonBuilderPattern nbp = new NonBuilderPattern();
+        NonBuilderPattern_ex nbp = new NonBuilderPattern_ex();
         nbp.stage1();
         nbp.stage2();
 

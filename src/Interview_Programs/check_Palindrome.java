@@ -22,23 +22,21 @@ public class check_Palindrome {
 //        }
 
 
+
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string to check for palindrome");
-        String userInput = sc.next();
-        String palindrome ="";
+        System.out.println("Enter the String");
+        String name = sc.next();
+        String temp= "";
 
-        for (int i = userInput.length()-1; i>=0; i--){
-            palindrome = palindrome + userInput.charAt(i);
 
+        for (int i = name.length()-1; i>=0; i--){
+            temp = temp + name.charAt(i);
         }
-        if (userInput.equalsIgnoreCase(palindrome)){
-            System.out.println(palindrome + " Is a Palindrome");
-        }else {
-            System.out.println(palindrome + " is not a palindrome");
-        }
-
-        sc.close();
-
+            if (name.equalsIgnoreCase(temp)){
+                System.out.println("It is Palindrome");
+            }else {
+                System.out.println("It is not Palindrome");
+            }
 
 
 

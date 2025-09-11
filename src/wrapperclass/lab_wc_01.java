@@ -5,10 +5,11 @@ public class lab_wc_01 {
     public static void main(String[] args) {
 
 
-        int a = 10;
+        int a = 10; // primitive Data Type
 
-        // primitive Data Type
 
+
+        // Wrapper classes are below:
 
         Integer a2 = 30;
         Integer a3 = 50;

@@ -17,7 +17,7 @@ public class maruf {
         if (x==true){
             System.out.println("Yes, you are authorised as well as authenticated");
         }else {
-            System.out.println("ohho!!! Not paid the fees!! ");
+            System.out.println("ohh!!! Not paid the fees!! ");
         }
     }
 
